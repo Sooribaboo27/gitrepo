@@ -2,9 +2,7 @@ Point in time backups  snapshots   34 mins
 
 commits reads the data from the staging area only.
 
-
 working area  ------------ staging area -------------- commit area
-
 
 when i issue a command git status
 it will look into staging area.
@@ -30,7 +28,6 @@ git log --oneline
 
 git show commit id
 git show head
-
 
 working area ---------------- staging area ------------------- local repo ----------------- remote repo
                git add                        git commit                    push /pull 
