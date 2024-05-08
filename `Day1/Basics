@@ -1,0 +1,36 @@
+Point in time backups  snapshots   34 mins
+
+commits reads the data from the staging area only.
+
+
+working area  ------------ staging area -------------- commit area
+
+
+when i issue a command git status
+it will look into staging area.
+
+I have 3 files file 1,file 2,file 3
+
+git add file 1 
+
+this file 1 file is moving from working area to staging area.
+
+git ls-files
+this commands gives how many files are there in staging area.
+
+git show
+
+it will show how many files are there in commit area.
+
+git log
+
+it will show how commts are done in this particular directory.
+
+git log --oneline
+
+git show commit id
+git show head
+
+
+working area ---------------- staging area ------------------- local repo ----------------- remote repo
+               git add                        git commit                    push /pull 
